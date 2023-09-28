@@ -1,0 +1,28 @@
+body {
+  background: url(images/bg.jpg) rgba(0, 0, 0.3);
+  background-position: center;
+  background-size: 100rem;
+  background-repeat: no-repeat;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+@media (max-width: 800px) {
+
+  body {
+    background: url(images/bg.jpg) rgba(0, 0, 0.3);
+    background-position: center;
+    background-size: 60rem;
+    background-repeat: no-repeat;
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+  }
+
+
+}

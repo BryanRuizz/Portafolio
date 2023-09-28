@@ -1,0 +1,211 @@
+.sidebar {
+    position: fixed;
+    top: 70PX;
+    right: 0;
+    width: 3rem;
+    height: 12rem;
+    padding: 1px 0px;
+    background: white;
+    margin: 1rem;
+    /* display: flex; */
+    border-radius: 50px;
+}
+
+.sidebar .Home {
+    margin: .3rem;
+    padding: .3rem;
+    justify-content: center;
+    display: flex;
+    font-size: 2rem;
+    /* background: red; */
+    border-radius: 70px;
+    color: gray
+}
+
+.sidebar .About-me {
+    margin: .3rem;
+    justify-content: center;
+    display: flex;
+    font-size: 3rem;
+    background: blue;
+}
+
+/* @media (max-width: 800px) {
+    .sidebar {
+        position: fixed;
+        top: 0PX;
+        right: 0;
+        width: 3rem;
+        height: 3rem;
+     
+        background: rgb(26, 207, 243) !important;
+        margin: 1rem;
+    }
+
+    .sidebar .Home {
+        display: none;
+    }
+
+
+   
+    .sidebar::before,
+    .sidebar::after,
+    .sidebar::nth-child(3) {
+        content: "";
+        display: block;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background-color: #fff;
+        height: 2px;
+        width: 80%;
+    }
+
+    .sidebar::before {
+        transform: translate(-50%, -50%) translateY(-8px);
+    }
+
+    .sidebar::after {
+        transform: translate(-50%, -50%) translateY(8px);
+    }
+
+    .sidebar::nth-child(3) {
+        transform: translate(-50%, -50%);
+    }
+
+} */
+
+/* this just for backgourn rgb */
+.m1 {
+    background: #0011ff;
+    position: fixed;
+    right: 0.6rem;
+    margin: 0.3rem;
+    padding: 1.6rem;
+    top: -5.8px !important;
+    justify-content: center;
+    display: flex;
+    font-size: 1.9rem;
+    border-radius: 50px;
+    color: #ffffff;
+    animation: colors 5s infinite;
+    transform: translate(-50,-50);
+}
+
+.mode {
+    background: #09232a !important;
+    position: fixed;
+    right: 1rem;
+    margin: .3rem;
+    padding: .3rem;
+    top: 0 !important;
+    justify-content: center;
+    display: flex;
+    font-size: 2rem;
+    border-radius: 70px;
+    border: 2px solid white; /* Agrega un borde blanco de 2px */
+    color: #ffffff
+}
+
+.modelight {
+    background: #cd4781 !important;
+    position: fixed;
+    right: 1rem;
+    margin: .3rem;
+    padding: .3rem;
+    top: 0 !important;
+    justify-content: center;
+    display: flex;
+    font-size: 2rem;
+    border-radius: 70px;
+    color: #ffffff
+}
+
+/* this is an rgb */
+/* 
+a{
+    position: fixed;
+    display: inline-block;
+    padding: 15px 30px;
+    color: #2196f3;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    text-decoration: none;
+    font-size: 24px;
+    overflow: hidden;
+    transition: 0.2s;
+}
+
+
+a:hover{
+    
+    color: #255784;
+    background: #2196f3;
+    box-shadow: 0 0 10px #2196f3, 0 0 40px #2196f3, 0 0 80px #2196f3;
+    transition-delay: 1s;
+} 
+a span{
+    position: absolute;
+    display: block;
+} 
+
+
+a span:nth-child(1) {
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(90deg, transparent, #008cff);
+}
+
+a:hover span:nth-child(1) {
+    left: 100%;
+    transition: 1s;
+}
+
+a span:nth-child(3) {
+    bottom: 0;
+    right: -100%;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(270deg, transparent, #008cff);
+}
+
+a:hover span:nth-child(3) {
+    right: 100%;
+    transition: 1s;
+    transition-delay: 0.5s;
+
+}
+
+a span:nth-child(2) {
+    top: -100%;
+    right: -0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(180deg, transparent, #008cff);
+}
+
+a:hover span:nth-child(2) {
+    top: 100%;
+    transition: 1s;
+    transition-delay: 0.25s;
+
+}
+
+a span:nth-child(4) {
+    bottom: -100%;
+    left: -0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(360deg, transparent, #008cff);
+}
+
+a:hover span:nth-child(4) {
+    bottom: 100%;
+    transition: 1s;
+    transition-delay: 0.75s;
+
+}
+   */

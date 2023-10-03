@@ -1,0 +1,69 @@
+.footer{
+    /* display: flex; */
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    background: #ff0303;
+    width: 100%;
+    height: 12%;
+    color: rgb(244, 235, 235);
+    /* border: 1px solid; */
+    justify-content: center;
+}
+
+.social-links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* position: fixed; */
+    /* width: 10rem; */
+    height: 5rem;
+    /* height: 10rem; */
+    border: 1px solid;
+    /* background: blue; */
+    background-size: 1rem;
+    
+}
+.social-links button{
+    margin: 3rem;
+    border: 1px white solid;
+    background: gray;
+    width: 3rem;
+    height: auto;
+    /* justify-content: center; */
+    /* align-items: center; */
+
+}
+.copyright{
+    display: flex;
+    position: fixed;
+    bottom: 0;
+    /* margin-top: -1rem; */
+    margin: 1rem;
+    justify-content: center !important;
+    /* background: purple; */
+    right: 0 !important;
+    color: #ffffff;
+    font-size: inherit;
+    text-shadow: 0 0 8px  #ffffff;
+    text-decoration: none;
+    /* padding-top: 1rem; */
+    font-family: 'Pixelify Sans', cursive;
+}
+.design{
+    /* color: rgba(222, 216, 216, 0.893); */
+    display: flex;
+    position: fixed;
+    bottom: 0;
+    /* margin-top: -1rem; */
+    margin: 1rem;
+
+    color: #ffffff;
+    font-size: inherit;
+    text-shadow: 0 0 8px  #ffffff;
+    text-decoration: none;
+
+    left: 0 !important;
+
+    font-family: 'Pixelify Sans', cursive;
+}

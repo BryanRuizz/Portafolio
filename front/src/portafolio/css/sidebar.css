@@ -244,5 +244,18 @@ a:hover span:nth-child(4) {
 .sidedos .linksto{
     margin: 1rem;
     /* background: #0011ff; */
+    color: #ffffff;
+    font-size: inherit;
+    text-shadow: 0 0 8px  #ffffff;
+    text-decoration: none;
+
     font-family: 'Pixelify Sans', cursive;
+}
+.sidedos .linksto:hover{
+    color: #f90bd1;
+    animation: colors 5s infinite;
+    transform: translate(-50,-50);
+    border-radius: 10px;
+    /* margin: 1rem; */
+    height: 1rem;
 }

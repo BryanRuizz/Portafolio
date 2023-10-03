@@ -62,10 +62,10 @@ export const Navbar: React.FC = () => {
 
     <nav className="sidedos">
       <div className="text header-text" >
-        <span className="linksto" style={{ color: "white" }}>Home</span>
-        <span className="linksto" style={{ color: "white" }}>About-me</span>
-        <span className="linksto" style={{ color: "white" }}>Experience</span>
-        <span className="linksto" style={{ color: "white" }}>School</span>
+        <a href="#" className="linksto" onClick={()=>{}}>Home</a>
+        <a href="#" className="linksto" onClick={()=>{}}>About-me</a>
+        <a href="#" className="linksto" onClick={()=>{}}>Experience</a>
+        <a href="#" className="linksto" onClick={()=>{}}>School</a>
       </div>
     </nav>
 

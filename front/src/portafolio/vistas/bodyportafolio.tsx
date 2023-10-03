@@ -1,6 +1,7 @@
 import React, { useEffect } from 'react';
 import { Nav } from 'react-bootstrap';
 import '../css/portfolio.css'
+import FooterComp from '../componentes/footer';
 
 
 
@@ -28,7 +29,7 @@ export const Bodyportafolio: React.FC = () => {
             // Borra el temporizador anterior
             clearTimeout(0);
 
-          
+
             timeout = setTimeout(() => {
                 console.log("llegando")
                 cursor.style.display = 'none';
@@ -39,15 +40,10 @@ export const Bodyportafolio: React.FC = () => {
 
     }, []);
 
-    return (<div className='cursor'>
-
-
-
-    </div>
-
-
-
-    );
+    return (<>
+        <div className='cursor'></div>
+        <FooterComp />
+    </>);
 };
 
 export default Bodyportafolio;

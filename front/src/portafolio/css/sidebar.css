@@ -5,10 +5,11 @@
     width: 3rem;
     height: 12rem;
     padding: 1px 0px;
-    background: white;
+    background: rgb(0, 0, 0);
     margin: 1rem;
     /* display: flex; */
     border-radius: 50px;
+    border: 2px solid rgb(255, 255, 255); /* Agrega un borde blanco de 2px */
 }
 
 .sidebar .Home {
@@ -19,7 +20,7 @@
     font-size: 2rem;
     /* background: red; */
     border-radius: 70px;
-    color: gray
+    color: rgb(255, 255, 255)
 }
 
 .sidebar .About-me {
@@ -29,6 +30,22 @@
     font-size: 3rem;
     background: blue;
 }
+/* fondo neon de sidebar */
+.m2 {
+    position: fixed;
+    top: 66PX;
+    right: -3px;
+    width: 3.4rem;
+    height: 12.4rem;
+    padding: 1px 0px;
+    background: #0011ff;
+    margin: 1rem;
+    /* display: flex; */
+    border-radius: 50px;
+    animation: colors 5s infinite;
+    transform: translate(-50,-50);
+}
+/* end neon fondo */
 
 /* @media (max-width: 800px) {
     .sidebar {
@@ -78,12 +95,12 @@
 
 /* this just for backgourn rgb */
 .m1 {
-    background: #0011ff;
+    background: #ff00d0;
     position: fixed;
     right: 0.6rem;
     margin: 0.3rem;
     padding: 1.6rem;
-    top: -5.8px !important;
+    top: 1.9rem !important;
     justify-content: center;
     display: flex;
     font-size: 1.9rem;
@@ -99,13 +116,14 @@
     right: 1rem;
     margin: .3rem;
     padding: .3rem;
-    top: 0 !important;
+    top: 2.3rem !important;
     justify-content: center;
     display: flex;
     font-size: 2rem;
     border-radius: 70px;
     border: 2px solid white; /* Agrega un borde blanco de 2px */
-    color: #ffffff
+    color: #ffffff;
+    z-index: 9999;
 }
 
 .modelight {
@@ -119,7 +137,8 @@
     display: flex;
     font-size: 2rem;
     border-radius: 70px;
-    color: #ffffff
+    color: #ffffff;
+    z-index: 9999;
 }
 
 /* this is an rgb */
@@ -209,3 +228,21 @@ a:hover span:nth-child(4) {
 
 }
    */
+
+
+   /* SEGUNDO SIDEBAR */
+.sidedos{
+    position: fixed;
+    /* background: #ff00d0; */
+    display: flex;
+    padding: 3rem;
+    top: 0;
+    right: 0rem;  
+    padding-right: 6rem; 
+}
+
+.sidedos .linksto{
+    margin: 1rem;
+    /* background: #0011ff; */
+    font-family: 'Pixelify Sans', cursive;
+}

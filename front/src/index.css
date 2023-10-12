@@ -1,12 +1,18 @@
 body {
-  background: url(images/bg.jpg) rgba(0, 0, 0.3);
+  z-index: 1;
+  background: url(images/bg2.webp) rgba(0, 0, 0.3);
+  /* background: url(images/bg.jpg) rgba(0, 0, 0.3); */
   background-position: center;
-  background-size: 120rem;
+  background-size: 130rem;
+  /* background-size: auto; */
   background-repeat: no-repeat;
 
   display: flex;
   justify-content: center;
   align-items: center;
+  /* max-width: 90rem; */
+  height: auto;
+  flex-direction: column;
 
 }
 
@@ -26,3 +32,7 @@ body {
 
 
 }
+/* .my-atropos {
+  width: 320px;
+  height: 160px;
+} */

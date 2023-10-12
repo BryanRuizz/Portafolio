@@ -1,0 +1,9 @@
+.container {
+    padding: 20rem;
+    margin-top: -17rem;
+    margin-left: -20rem;
+    background: url(/src/images/moon.png);
+    background-size: 40rem;
+    background-repeat: no-repeat;
+    position: fixed;
+}

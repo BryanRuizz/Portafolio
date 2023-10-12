@@ -2,6 +2,7 @@ import React, { useEffect } from 'react';
 import { Nav } from 'react-bootstrap';
 import '../css/portfolio.css'
 import FooterComp from '../componentes/footer';
+import LunaComponent from '../componentes/luna';
 
 
 
@@ -42,6 +43,10 @@ export const Bodyportafolio: React.FC = () => {
 
     return (<>
         <div className='cursor'></div>
+
+        <div className='container' style={{background:"red"}}>
+            <h1>HOLA</h1>
+        </div>
         <FooterComp />
     </>);
 };

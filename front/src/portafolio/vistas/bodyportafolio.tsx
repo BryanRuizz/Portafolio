@@ -1,8 +1,11 @@
+import 'bootstrap/dist/css/bootstrap.min.css';
 import React, { useEffect } from 'react';
 import { Nav } from 'react-bootstrap';
 import '../css/portfolio.css'
 import FooterComp from '../componentes/footer';
-import LunaComponent from '../componentes/luna';
+import Navbar from './navbar';
+
+
 
 
 
@@ -41,14 +44,40 @@ export const Bodyportafolio: React.FC = () => {
 
     }, []);
 
-    return (<>
-        <div className='cursor'></div>
+   
+    
+    
 
-        <div className='container' style={{background:"red"}}>
-            <h1>HOLA</h1>
-        </div>
+
+    return (<div className='maincontainer' >
+        <div className="container-fluid">
+                <Navbar/>
+            <div className="row" style={{color:"white", background:""}}>
+                <div className="col-md-6" style={{color:"white", background:""}}>
+               hola
+                </div>
+                <div className="col-md-6" style={{color:"white",background:""}}>world</div>
+            </div>
+
+            {/* <button type="button" className="btn btn-primary">Primary</button> */}
+     
         <FooterComp />
-    </>);
+        </div>
+        </div>);
 };
 
 export default Bodyportafolio;
+//    <div className='container-fluid' style={{ border: "2px solid white" }}>
+//             <div className="row" style={{ width: "100%" }}>
+//                 <div className="col-4" style={{ border: "2px solid white" }}>
+//                     One of three
+                  
+//                 </div>
+//                 <div className="col-4" style={{ border: "2px solid white" }}>
+//                     One of three columns
+//                 </div>
+//                 <div className="col-4" style={{ border: "2px solid white" }}>
+//                     One of three columns
+//                 </div>
+//             </div>
+//         </div> 

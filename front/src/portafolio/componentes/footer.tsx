@@ -58,7 +58,7 @@ const FooterComp: React.FC<{}> = () => {
                 {/* </div> */}
             </div>
             {year === 2023 ? (<p className="copyright">Copyright {year}</p>) : (<p className="copyright">Copyright 2023 to {year}</p>)}
-            <p className="design">Design by bryan</p>
+            {/* <p className="copyright">Design by bryan</p> */}
 
         </footer>
 

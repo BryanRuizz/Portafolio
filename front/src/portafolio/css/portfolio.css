@@ -44,110 +44,73 @@ background: rgba(255, 0, 0, 0);
     justify-content: center;
     margin-top: 0;
 }
+/* 
 
-/*  */.cursor-dot {
-    position: fixed;
-    pointer-events: none;
-    z-index: 999;
-    border-radius: 50%;
-    overflow: hidden;
-    width: 4px;
-    height: 4px;
-    background-color: rgba(0, 0, 0, 0);
-    border-style: solid;
-    border-width: 0px;
-    opacity: 0;
-    transform: translateX(-50%) translateY(-50%) scale(1) translateZ(0px);
-    top: 115px;
-    left: 1258px;
-    transition: all 0.2s ease; /* Agregar una transición suave para los cambios de estilo */
+*/
+
+.home1{
+    height: 100vh;
+    display:flex ;
+    align-items: center;
+    padding: 0 10%;
 }
 
-.cursor-dot.active {
-    background-color: rgb(96, 104, 135);
-    border-style: none;
-    border-width: 0px;
-    opacity: 0.5;
-    transform: translateX(-50%) translateY(-50%) scale(2) translateZ(0px);
+.home-content{
+    max-width: 600px;
+}
+.home-content h1{
+    font-size: 49px;
+    font-weight: 700;
+
+    /* text-shadow: 0 0 8px  #ffffff; */
+    text-decoration: none;
+    /* padding-top: 1rem; */
+    font-family: 'Pixelify Sans', cursive;
 }
 
-.cursor {
-    position: fixed;
-    pointer-events: none;
-    z-index: 999;
-    border-radius: 50%;
-    overflow: hidden;
-    width: 24px;
-    height: 24px;
-    border-color: #606887;
-    mix-blend-mode: multiply;
-    background-color: rgba(0, 0, 0, 0);
-    border-style: solid;
-    border-width: 0px;
-    opacity: 0;
-    transform: translateX(-50%) translateY(-50%) scale(1) translateZ(0px);
-    top: 112px;
-    left: 1162px;
-    transition: all 0.2s ease; /* Agregar una transición suave para los cambios de estilo */
+.home-content h3{
+    font-size: 32px;
+    font-weight: 700;
+    color: #00abf0;
+
+    /* text-shadow: 0 0 8px  #00abf0; */
+    text-decoration: none;
+    /* padding-top: 1rem; */
+    font-family: 'Pixelify Sans', cursive;
 }
 
-.cursor.active {
-    background-color: rgba(0, 0, 0, 0);
-    border-style: solid;
-    border-width: 0px;
-    opacity: 0;
-    transform: translateX(-50%) translateY(-50%) scale(1) translateZ(0px);
+.home-content p{
+    font-size: 16px;
+    margin: 20px 0 40px;
+text-align: justify !important;
 }
-.cursor-dot {
-    position: fixed;
-    pointer-events: none;
-    z-index: 999;
-    border-radius: 50%;
-    overflow: hidden;
-    width: 4px;
-    height: 4px;
-    background-color: rgba(0, 0, 0, 0);
-    border-style: solid;
-    border-width: 0px;
-    opacity: 0;
-    transform: translateX(-50%) translateY(-50%) scale(1) translateZ(0px);
-    top: 115px;
-    left: 1258px;
-    transition: all 0.2s ease; /* Agregar una transición suave para los cambios de estilo */
+.home-content .btn-box{
+    width: 345px;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    /* background: yellowgreen; */
 }
 
-.cursor-dot.active {
-    background-color: rgb(96, 104, 135);
-    border-style: none;
-    border-width: 0px;
-    opacity: 0.5;
-    transform: translateX(-50%) translateY(-50%) scale(2) translateZ(0px);
+/* boton cuadro  */
+.btn-box a{
+    position: relative;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 100%;
+    /* color */
+    /* background: #33FFEC; */
+    border: 2px solid white;
+    font-size: 19px;
+    color: rgb(253, 251, 251);
+    text-decoration: none;
+    font-weight: 600;
+    letter-spacing: 1px;
 }
 
-.cursor {
-    position: fixed;
-    pointer-events: none;
-    z-index: 999;
-    border-radius: 50%;
-    overflow: hidden;
-    width: 24px;
-    height: 24px;
-    border-color: #606887;
-    mix-blend-mode: multiply;
-    background-color: rgba(0, 0, 0, 0);
-    border-style: solid;
-    border-width: 0px;
-    opacity: 0;
-    transform: translateX(-50%) translateY(-50%) scale(1) translateZ(0px);
-    top: 112px;
-    left: 1162px;
-    transition: all 0.2s ease; /* Agregar una transición suave para los cambios de estilo */
-}
-
-.cursor.active {
-    background-color: rgba(0, 0, 0, 0);
-    border-style: solid;
-    border-width: 0px;
-    opacity: 0;
-    transform: translateX(-50%) translateY(-50%) scale(1) translateZ(0px);
+.btn-box a:hover{
+    background: #2d03ff83;
+    box-shadow: 0 0 20px #33FFEC, 0 0 60px #33FFEC, 0 0 100px #33FFEC;
 }

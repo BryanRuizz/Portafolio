@@ -41,29 +41,33 @@ export const Navbar: React.FC = () => {
 
     // Asegúrate de que el elemento existe
     if (themeSwitch) {
-        // Agrega un eventListener para cambiar el estilo al pasar el cursor sobre el elemento
-        themeSwitch.addEventListener("mouseover", () => {
-            // Cambia el estilo al pasar el cursor sobre el elemento
-            themeSwitch.style.backgroundColor = "rgb(96, 104, 135)";
-            themeSwitch.style.opacity = "0.5";
-            // Agrega otros cambios de estilo según tus necesidades
-        });
+      // Agrega un eventListener para cambiar el estilo al pasar el cursor sobre el elemento
+      themeSwitch.addEventListener("mouseover", () => {
+        // Cambia el estilo al pasar el cursor sobre el elemento
+        themeSwitch.style.backgroundColor = "rgb(96, 104, 135)";
+        themeSwitch.style.opacity = "0.5";
+        // Agrega otros cambios de estilo según tus necesidades
+      });
 
-        // Agrega un eventListener para restaurar el estilo cuando el cursor se retira del elemento
-        themeSwitch.addEventListener("mouseout", () => {
-            // Restaura el estilo al quitar el cursor del elemento
-            themeSwitch.style.backgroundColor = "rgba(0, 0, 0, 0)";
-            themeSwitch.style.opacity = "0";
-            // Restaura otros cambios de estilo según tus necesidades
-        });
+      // Agrega un eventListener para restaurar el estilo cuando el cursor se retira del elemento
+      themeSwitch.addEventListener("mouseout", () => {
+        // Restaura el estilo al quitar el cursor del elemento
+        themeSwitch.style.backgroundColor = "rgba(0, 0, 0, 0)";
+        themeSwitch.style.opacity = "0";
+        // Restaura otros cambios de estilo según tus necesidades
+      });
     }
-});
+  });
 
 
 
 
 
   return (<>
+    <div className="container" style={{ background: "" }}>
+      <a className="m2"></a>
+      <button className="mode2">ESP</button>
+    </div>
     {/* <a className="m2"></a>
     <nav className="sidebar" style={{}}>
 
@@ -149,7 +153,7 @@ export const Navbar: React.FC = () => {
           <div className="col-sm-3">
             <a href="#" className="linksto" onClick={() => { }}>School</a>
           </div>
-          
+
         </div>
       </div>
     </nav>

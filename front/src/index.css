@@ -1,9 +1,9 @@
 body {
-  background: url(images/bg.jpg) rgba(0, 0, 0.3);
+  /* background: url(images/bg.jpg) rgba(0, 0, 0.3); */
   background-position: center;
   background-size: 120rem;
   background-repeat: no-repeat;
-
+background: #081c29;
   display: flex;
   justify-content: center;
   align-items: center;

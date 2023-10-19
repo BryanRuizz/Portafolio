@@ -1,14 +1,15 @@
-import { Route, Routes, useNavigate } from "react-router-dom";
+// import { Route, Routes, useNavigate } from "react-router-dom";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { useEffect, useState } from "react";
-import { Nav } from "react-bootstrap";
+// import { Nav } from "react-bootstrap";
 import "../../portafolio/css/sidebar.css"
 import { AiFillHome, AiOutlineFormatPainter } from "react-icons/ai";
-import { IoIosSchool } from "react-icons/io";
-import { BiHomeAlt2, BiSolidUser } from "react-icons/bi";
-import { BsFillBriefcaseFill } from "react-icons/bs";
-import { PiMoonStars } from "react-icons/pi";
-import { FaRegLightbulb, FaUserSecret } from "react-icons/fa";
+// import { IoIosSchool } from "react-icons/io";
+// import { BiHomeAlt2, BiSolidUser } from "react-icons/bi";
+// import { BsFillBriefcaseFill } from "react-icons/bs";
+// import { PiMoonStars } from "react-icons/pi";
+// import { FaRegLightbulb, FaUserSecret } from "react-icons/fa";
+import { GrMenu } from 'react-icons/gr';
 
 export const Navbar: React.FC = () => {
   // const [defalut, setDefault] = useState<boolean>(true);
@@ -141,6 +142,7 @@ export const Navbar: React.FC = () => {
 
       <div className="container">
         <div className="row">
+          {/* <div className="col-sm-3" style={{background:"white"}}><GrMenu /></div> */}
           <div className="col-sm-3">
             <a href="#" className="linksto" onClick={() => { }}>Home</a>
           </div>
@@ -155,8 +157,28 @@ export const Navbar: React.FC = () => {
           </div>
 
         </div>
+
+
+
       </div>
+
+      
+
+      {/* <div className="nav_container"> */}
+      <label htmlFor='menu' className='nav_lavel'>
+        <GrMenu style={{}} />
+      </label>
+      <input type='checkbox' id='menu' className='nav_input'></input>
+      {/* </div> */}
+      <div className="menu_desp">
+        
+        </div>
+  
+
+
     </nav>
+
+
 
   </>
   );

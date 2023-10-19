@@ -451,8 +451,23 @@ a:hover span:nth-child(4) {
     max-width: 43px !important;
 }
 
+.nav_lavel {
+    display: none;
+}
+
+.nav_input {
+    display: none;
+}
+
+/* .nav_input:checked + .contaaa{
+    background: #0011ff;
+} */
+/* .contaaa{
+    width: 100px;
+    height: 100px;
+} */
 /* here in 800px of w change how it is showing */
-@media (max-width: 800px) {
+@media (max-width: 766px) {
 
     .mode {
         background: #0c1b1f !important;
@@ -486,5 +501,40 @@ a:hover span:nth-child(4) {
         animation: colors 5s infinite;
         transform: translate(-50, -50);
     }
+
+    .nav_lavel {
+        display: block;
+        cursor: pointer;
+        filter: invert(100%);
+        display: flex;
+        position: absolute;
+        top: 0;
+        font-size: 2rem;
+        right: 0;
+        margin: 10px;
+    }
+
+    .nav_input {
+        display: block;
+        cursor: pointer;
+        visibility: hidden;
+    }
+
+    .nav_input:checked + .menu_desp {
+        background: #0011ff;
+        /* display: none; */
+
+    }
+
+    .menu_desp {
+        width: 100px;
+        height: 100px;
+        background: #00ff44;
+    }
+
+    .linksto {
+        display: none;
+    }
+
 
 }

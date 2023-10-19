@@ -9,7 +9,8 @@
     margin: 1rem;
     /* display: flex; */
     border-radius: 50px;
-    border: 2px solid rgb(255, 255, 255); /* Agrega un borde blanco de 2px */
+    border: 2px solid rgb(255, 255, 255);
+    /* Agrega un borde blanco de 2px */
     /* z-index: 1999; */
 }
 
@@ -31,6 +32,7 @@
     font-size: 3rem;
     background: blue;
 }
+
 /* fondo neon de sidebar */
 .m2 {
     position: fixed;
@@ -44,8 +46,9 @@
     /* display: flex; */
     border-radius: 50px;
     animation: colors 5s infinite;
-    transform: translate(-50,-50);
+    transform: translate(-50, -50);
 }
+
 /* end neon fondo */
 
 /* @media (max-width: 800px) {
@@ -108,7 +111,7 @@
     border-radius: 50px;
     color: #ffffff;
     animation: colors 5s infinite;
-    transform: translate(-50,-50);
+    transform: translate(-50, -50);
 }
 
 .mode {
@@ -122,10 +125,12 @@
     display: flex;
     font-size: 2rem;
     border-radius: 70px;
-    border: 2px solid white; /* Agrega un borde blanco de 2px */
+    border: 2px solid white;
+    /* Agrega un borde blanco de 2px */
     color: #ffffff;
     z-index: 9999;
 }
+
 
 .modelight {
     background: #cd4781 !important;
@@ -231,32 +236,33 @@ a:hover span:nth-child(4) {
    */
 
 
-   /* SEGUNDO SIDEBAR */
-.sidedos{
+/* SEGUNDO SIDEBAR */
+.sidedos {
     position: fixed;
     /* background: #ff00d0; */
     display: flex;
     padding: 2rem;
     top: 0;
-    right: 0rem;  
-    padding-right: 6rem; 
+    right: 0rem;
+    padding-right: 6rem;
     z-index: 1999;
 }
 
-.sidedos .linksto{
+.sidedos .linksto {
     margin: 1rem;
     /* background: #0011ff; */
     color: #ffffff;
     font-size: inherit;
-    text-shadow: 0 0 8px  #ffffff;
+    text-shadow: 0 0 8px #ffffff;
     text-decoration: none;
 
     font-family: 'Pixelify Sans', cursive;
 }
-.sidedos .linksto:hover{
+
+.sidedos .linksto:hover {
     color: #f90bd1;
     animation: colors 5s infinite;
-    transform: translate(-50,-50);
+    transform: translate(-50, -50);
     border-radius: 10px;
     /* margin: 1rem; */
     height: 1rem;
@@ -397,50 +403,88 @@ a:hover span:nth-child(4) {
       } */
 
 
-      .language{
-        display: flex;
-        left: 0;
-        position: fixed;
-        background: rgb(151, 51, 51);
-        color: white;
-        margin: 21px;
-        width: 3rem;
-        height: 3rem;
-        justify-content: center;
-        border-radius: 20px;
-      }
+.language {
+    display: flex;
+    left: 0;
+    position: fixed;
+    background: rgb(151, 51, 51);
+    color: white;
+    margin: 21px;
+    width: 3rem;
+    height: 3rem;
+    justify-content: center;
+    border-radius: 20px;
+}
 
-      .mode2 {
-        background: #09232a !important;
-        position: fixed;
-        left: 7px;
-        /* margin: 0.3rem; */
-        padding: 0.3rem;
-        top: 8px;
-        justify-content: center;
-        display: flex;
-        font-size: 19px;
-        border-radius: 70px;
-        border: 2px solid white;
-        color: #ffffff;
-        z-index: 9999;
+.mode2 {
+    background: #09232a !important;
+    position: fixed;
+    left: 7px;
+    /* margin: 0.3rem; */
+    padding: 0.3rem;
+    top: 8px;
+    justify-content: center;
+    display: flex;
+    font-size: 19px;
+    border-radius: 70px;
+    border: 2px solid white;
+    color: #ffffff;
+    z-index: 9999;
+}
+
+.m2 {
+    background: #ff00d0;
+    position: fixed;
+    left: -11px;
+    /* margin: 0.3rem; */
+    padding: 1.44rem;
+    top: -10px;
+    justify-content: center;
+    display: flex;
+    font-size: 10px;
+    border-radius: 70px;
+    color: #ffffff;
+    z-index: 9999;
+    animation: colors 5s infinite;
+    transform: translate(-50, -50);
+    max-height: 43px !important;
+    max-width: 43px !important;
+}
+
+/* here in 800px of w change how it is showing */
+@media (max-width: 800px) {
+
+    .mode {
+        background: #0c1b1f !important;
+        position: fixed !important;
+        right: inherit;
+        margin: -5px !important;
+        padding: 0.3rem !important;
+        top: 4rem !important;
+        justify-content: left !important;
+        display: flex !important;
+        font-size: 32px !important;
+        border-radius: 70px !important;
+        border: 2px solid white !important;
+        color: #ffffff !important;
+        z-index: 9999 !important;
+        /* **right: 0!important;** */
     }
 
-    .m2{
+    .m1 {
         background: #ff00d0;
         position: fixed;
-        left: -11px;
-        /* margin: 0.3rem; */
-        padding: 1.44rem;
-        top: -10px;
+        right: inherit;
+        margin: -8px !important;
+        padding: 1.6rem;
+        top: 4.1rem !important;
         justify-content: center;
         display: flex;
-        font-size: 10px;
-        border-radius: 70px;
+        font-size: 1.9rem;
+        border-radius: 50px;
         color: #ffffff;
-        z-index: 9999;
         animation: colors 5s infinite;
-        transform: translate(-50,-50);
-        max-height: 43px !important;
-        max-width: 43px !important;
+        transform: translate(-50, -50);
     }
+
+}

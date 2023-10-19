@@ -7,15 +7,13 @@ import { TbBrandGmail } from "react-icons/tb";
 // import '@mui/icons-material/LinkedIn';
 
 const FooterComp: React.FC<{}> = () => {
-    const [year, setYear] = useState<number>(0);
 
+    const [year, setYear] = useState<number>(0);
     useEffect(() => {
         let year = new Date().getFullYear();
         // let year = 2024;
         setYear(year);
     }, []);
-
-
     function tomygmail(): void {
         const socialLinks: NodeListOf<HTMLAnchorElement> = document.querySelectorAll(".social-links a");
 
@@ -57,7 +55,7 @@ const FooterComp: React.FC<{}> = () => {
                     {/* </div> */}
                 {/* </div> */}
             </div>
-            {year === 2023 ? (<p className="copyright">Copyright {year}</p>) : (<p className="copyright">Copyright 2023 to {year}</p>)}
+            {/* {year === 2023 ? (<p className="copyright">Copyright {year}</p>) : (<p className="copyright">Copyright 2023 to {year}</p>)} */}
             {/* <p className="copyright">Design by bryan</p> */}
 
         </footer>

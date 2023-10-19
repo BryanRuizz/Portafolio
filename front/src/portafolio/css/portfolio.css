@@ -211,3 +211,12 @@
 
 
 }
+@media (max-width: 420px) {
+    .home-content p {
+        font-size: 16px;
+        margin: 30px 0 44px;
+        text-align: justify !important;
+        width: 18rem;
+        
+    }
+}

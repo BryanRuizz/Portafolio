@@ -1,0 +1,11 @@
+Model Information:
+* title:	Vampire Glow Bat
+* source:	https://sketchfab.com/3d-models/vampire-glow-bat-5d51eba666614cf2a9289a78d3c4fdf7
+* author:	Aiden Vang (https://sketchfab.com/vang807)
+
+Model License:
+* license type:	CC-BY-NC-SA-4.0 (http://creativecommons.org/licenses/by-nc-sa/4.0/)
+* requirements:	Author must be credited. No commercial use. Modified versions must have the same license.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Vampire Glow Bat" (https://sketchfab.com/3d-models/vampire-glow-bat-5d51eba666614cf2a9289a78d3c4fdf7) by Aiden Vang (https://sketchfab.com/vang807) licensed under CC-BY-NC-SA-4.0 (http://creativecommons.org/licenses/by-nc-sa/4.0/)

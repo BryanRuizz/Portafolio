@@ -213,7 +213,7 @@
 
 }
 
-@media (max-width: 766px) {
+@media (max-width: 768px) {
     .home1 {
         height: 100vh;
         display: flex;
@@ -226,7 +226,7 @@
     }
 
     .home-content h1 {
-        font-size: 50px;
+        font-size: 51px;
         font-weight: 500;
 
         text-shadow: 0 0 8px #ffffff;
@@ -255,8 +255,66 @@
     }
 
 }
+@media (max-width: 686px) {
+    .home-content h1 {
+        font-size: 51px;
+        font-weight: 500;
 
-@media (max-width: 420px) {
+        text-shadow: 0 0 8px #ffffff;
+        text-decoration: none;
+        /* padding-top: 1rem; */
+        font-family: 'Pixelify Sans', cursive;
+    }
+
+    .home-content p {
+        font-size: 16px;
+        margin: 30px 0 44px;
+        text-align: justify !important;
+        width: 33rem;
+        /* height: 3rem; */
+    }
+}
+@media (max-width: 610px) {
+
+    .home-content h1 {
+        font-size: 41px;
+        font-weight: 500;
+
+        text-shadow: 0 0 8px #ffffff;
+        text-decoration: none;
+        
+        font-family: 'Pixelify Sans', cursive;
+    }
+
+    .home-content p {
+        font-size: 16px;
+        margin: 30px 0 44px;
+        text-align: justify !important;
+        width: 25rem;
+        
+    }
+}
+
+@media (max-width: 459px) {
+
+    .home-content h1 {
+        font-size: 30px;
+        font-weight: 500;
+
+        text-shadow: 0 0 8px #ffffff;
+        text-decoration: none;
+        
+        font-family: 'Pixelify Sans', cursive;
+    }
+    .home-content h3 {
+        font-size: 24px;
+        font-weight: 900;
+        color: #00abf0;
+        /* text-shadow: 0 0 8px #00abf0; */
+        text-decoration: none;
+        /* padding-top: 1rem; */ 
+        font-family: 'Pixelify Sans', cursive;
+    }
     .home-content p {
         font-size: 16px;
         margin: 30px 0 44px;
@@ -269,6 +327,6 @@
         height: 40px;
         display: flex;
         justify-content: space-between;
-        /* background: yellowgreen; */
+        /* background: yellowgreen;  */
     }
 }

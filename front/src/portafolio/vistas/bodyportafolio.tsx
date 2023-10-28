@@ -7,7 +7,10 @@ import Navbar from './navbar';
 
 import * as THREE from 'three';
 import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls';
-
+// para 
+// import SceneInit from './lib/SceneInit' 
+import { GLTFLoader } from 'three/examples/jsm/loaders/GLTFLoader.js';
+import SceneInit from '../../lib/SceneInit';
 
 
 
@@ -150,29 +153,50 @@ export const Bodyportafolio: React.FC = () => {
     // const cursor = document.querySelector(".cursor") as HTMLElement;
 
     useEffect(() => {
-        const cursor = document.querySelector('.cursor') as HTMLElement;
-        let timeout: any;
+        // const cursor = document.querySelector('.cursor') as HTMLElement;
+        // let timeout: any;
+        // if (cursor) {
+        //     document.addEventListener('mousemove', (e) => {
+        //         let x = e.pageX;
+        //         let y = e.pageY;
 
-        if (cursor) {
-            document.addEventListener('mousemove', (e) => {
-                let x = e.pageX;
-                let y = e.pageY;
+        //         cursor.style.top = y + 'px';
+        //         cursor.style.left = x + 'px';
+        //         cursor.style.display = 'block';
+        //     });
+        //     clearTimeout(0);
+        //     timeout = setTimeout(() => {
+        //         console.log("llegando")
+        //         cursor.style.display = 'none';
+        //     }, 1000);
+        // }--------------------------
+        const test = new SceneInit('myThreeJsCanvas');
+        test.initialize();
+        test.animate();
 
-                cursor.style.top = y + 'px';
-                cursor.style.left = x + 'px';
-                cursor.style.display = 'block';
-            });
 
-            // Borra el temporizador anterior
-            clearTimeout(0);
+        // let loadedModel:any;
+        const glftLoader = new GLTFLoader();
+        glftLoader.load('/assets/spider_man_classic_suit_mcu/scene.gltf', (glftScene: any) => {
+
+            // loadedModel = glftScene;
 
 
-            timeout = setTimeout(() => {
-                console.log("llegando")
-                cursor.style.display = 'none';
-            }, 1000);
+            // glftScene.scene.rotation.y = Math.PI /8;
+            // glftScene.scene.position.y = 3;
+            // glftScene.scene.scale.set(10,10,10);
+            test.scene.add(glftScene.scene);
+        });
 
-        }
+        // const animate = ()=>{
+        //     if(loadedModel){
+        //         loadedModel.scene.scale.set(10,10,10);
+        //         loadedModel.scene.rotation.x +=0.01;
+        //         loadedModel.scene.rotation.y +=0.01;
+        //         loadedModel.scene.rotation.z +=0.01;
+        //     }
+        //     requestAnimationFrame(animate);
+        // };
 
 
     }, []);
@@ -204,7 +228,8 @@ export const Bodyportafolio: React.FC = () => {
 
                 </div>
                 <div className="col-md-6" style={{ color: "white", background: "" }}>
-                    aqui
+                <canvas id="myThreeJsCanvas"></canvas>
+
                 </div>
             </div>
 

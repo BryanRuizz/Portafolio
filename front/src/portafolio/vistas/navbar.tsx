@@ -170,9 +170,12 @@ export const Navbar: React.FC = () => {
       </label>
       <input type='checkbox' id='menu' className='nav_input'></input>
       {/* </div> */}
+      
       <div className="menu_desp">
         
-        </div>
+      </div>
+      
+      <div className="exepcion"></div>
   
 
 

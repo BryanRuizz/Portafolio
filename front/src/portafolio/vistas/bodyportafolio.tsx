@@ -178,8 +178,8 @@ export const Bodyportafolio: React.FC = () => {
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elit dui, lacinia vitae tellus et, convallis vehicula dolor. Integer vitae vulputate libero. Mauris ac sodales lectus, ac posuere est.Integer eget scelerisque lorem, vitae efficitur magna. Praesent viverra bibendum pretium. Nunc neque orci, egestas et ipsum id, ultricies porta nisi. Donec ac maximus ex, eu ornare turpis. Etiam imperdiet maximus lorem non aliquet.
                             </p>
                             <div className="btn-box">
-                                <a href='#'>Hire me!</a>
-                                <a href='#'>Let's Talk</a>
+                                <a href='https://wa.link/8kqsb2'>Whatsapp!</a>
+                                <a href='#'>My cv</a>
                             </div>
                         </div>
                     </section>

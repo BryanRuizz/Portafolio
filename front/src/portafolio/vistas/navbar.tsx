@@ -66,7 +66,7 @@ export const Navbar: React.FC = () => {
 
   return (<>
     <div className="container" style={{ background: "" }}>
-      <a className="m2"></a>
+      <div className="m2"></div>
       <button className="mode2">ESP</button>
     </div>
     {/* <a className="m2"></a>
@@ -89,7 +89,7 @@ export const Navbar: React.FC = () => {
 
       <button className="modelight" style={{ marginTop: "1rem", margin: "2px" }} onClick={() => mode(2)}><AiOutlineFormatPainter /></button>
     ) : (<>
-      <a className="m1"></a>
+      <div className="m1"></div>
       <button className="mode" style={{ marginTop: "1rem", margin: "2px" }} onClick={() => mode(1)} ><AiOutlineFormatPainter /></button>
 
     </>

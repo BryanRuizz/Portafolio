@@ -71,7 +71,7 @@
     font-family: 'Pixelify Sans', cursive;
 }
 
-.home-content h3 {
+.home-content h2 {
     font-size: 32px;
     font-weight: 700;
     color: #00abf0;
@@ -152,7 +152,7 @@
         font-family: 'Pixelify Sans', cursive;
     }
 
-    .home-content h3 {
+    .home-content h2 {
         font-size: 27px;
         font-weight: 700;
         color: #00abf0;
@@ -235,7 +235,7 @@
         font-family: 'Pixelify Sans', cursive;
     }
 
-    .home-content h3 {
+    .home-content h2 {
         font-size: 30px;
         font-weight: 900;
         color: #00abf0;
@@ -306,7 +306,7 @@
         
         font-family: 'Pixelify Sans', cursive;
     }
-    .home-content h3 {
+    .home-content h2 {
         font-size: 24px;
         font-weight: 900;
         color: #00abf0;
